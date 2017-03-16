@@ -1,0 +1,34 @@
+.slider
+  width 100%
+  height 331px
+
+  &--main
+    background url("/images/slider-main.png") no-repeat
+    background-size (100%)
+
+  &--menu
+    width 980px
+    height 220px
+    margin 0 auto
+    margin-bottom 28px
+
+  &__bot-pattern
+    position relative
+    top -60px
+    background url("/images/menu-pattern.png")
+    float left
+    width 215px
+    height 59px
+    float left
+    text-decoration none
+    display table
+    &:hover
+      background url("/images/menu-pattern--hover.png")
+
+  &__text
+    font-size $font-size+10
+    color $white
+    font-weight 400
+    position relative
+    display table-cell
+    vertical-align middle
